@@ -1,0 +1,21 @@
+# http://127.0.0.1:3644 --workers 5 --loaded-duration-minutes 2 --output-dir plot-render-async/plot-render-async-output
+# {"appUrl":"http://127.0.0.1:3644","debugLog":false,"loadedDurationMinutes":2.0,"logLevel":"WARN","outputDir":"plot-render-async/plot-render-async-output","overwriteOutput":false,"recordingPath":"plot-render-async/plot-render-async.log","workers":5}
+session_id,worker_id,iteration,event,timestamp,input_line_number,comment
+6,1,1,PLAYER_SESSION_CREATE,1554203196126,0,
+6,1,1,REQ_HOME_START,1554203196126,3,
+6,1,1,REQ_HOME_END,1554203196164,3,
+6,1,1,WS_OPEN_START,1554203196164,4,
+6,1,1,WS_OPEN_END,1554203196168,4,
+6,1,1,PLAYBACK_SLEEPBEFORE_START,1554203196168,5,
+6,1,1,PLAYBACK_SLEEPBEFORE_END,1554203196189,5,
+6,1,1,WS_SEND_START,1554203196189,5,
+6,1,1,WS_SEND_END,1554203196189,5,
+6,1,1,WS_RECV_INIT_START,1554203196189,6,
+6,1,1,WS_RECV_INIT_END,1554203196191,6,
+6,1,1,WS_RECV_START,1554203196191,7,
+6,1,1,WS_RECV_END,1554203198694,7,
+6,1,1,PLAYBACK_SLEEPBEFORE_START,1554203198694,8,
+6,1,1,PLAYBACK_SLEEPBEFORE_END,1554203230690,8,
+6,1,1,WS_CLOSE_START,1554203230691,8,
+6,1,1,WS_CLOSE_END,1554203230692,8,
+6,1,1,PLAYBACK_DONE,1554203230692,0,
