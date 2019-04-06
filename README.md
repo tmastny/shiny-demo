@@ -1,30 +1,13 @@
-Todo:
+Tools for Shiny development
 
-1. Find good async example
+1. [profvis](https://rstudio.github.io/profvis/)
 
-2. Find good shinytest example
+2. [Caching](https://shiny.rstudio.com/articles/plot-caching.html)
 
+3. [Shiny Test](https://rstudio.github.io/shinytest/articles/package.html)
 
+4. [shinyloadtest](https://rstudio.github.io/shinyloadtest/)
 
-1. Profile your code with profvis
-2. cache the results
-  a. even better: cache the results before-hand offline
-3. Effective Reactive Programming
-4. Load Balancing
-5. Promises
-  - https://rstudio.github.io/promises/articles/casestudy.html
+5. [Shiny reactlog](https://rstudio.github.io/reactlog/articles/reactlog.html#reactlog)
 
-
-Promises get worse the more data they have the process.
-Data must be serialized between `future` and the shiny app,
-which is typically very slow.
-
-This is why futures should typically be the last resort. It can
-be more complicated to implement, and the returns are diminishing.
-
-
-React Log
-```r
-options(shiny.reactlog=TRUE)
-reactlogShow()
-```
+6. [Promises and Async](https://rstudio.github.io/promises/articles/shiny.html)

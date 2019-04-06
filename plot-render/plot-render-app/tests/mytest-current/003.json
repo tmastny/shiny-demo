@@ -1,0 +1,59 @@
+{
+  "input": {
+    "color": [
+      "E",
+      "I",
+      "J",
+      "H",
+      "F"
+    ],
+    "color-selectized": ""
+  },
+  "output": {
+    "carPlot": {
+      "src": "[image data sha1: 7e56ad650e78255c8ebc4a8b8acc23e82bd542d9]",
+      "width": 631,
+      "height": 400,
+      "coordmap": {
+        "panels": [
+          {
+            "panel": 1,
+            "row": 1,
+            "col": 1,
+            "panel_vars": {
+
+            },
+            "log": {
+              "x": null,
+              "y": null
+            },
+            "domain": {
+              "left": -0.0405,
+              "right": 5.2505,
+              "bottom": -598.85,
+              "top": 19747.85
+            },
+            "mapping": {
+              "x": "carat",
+              "y": "price",
+              "colour": "color"
+            },
+            "range": {
+              "left": 48.0208021190068,
+              "right": 574.488209450865,
+              "bottom": 367.625291494461,
+              "top": 5.47945205479452
+            }
+          }
+        ],
+        "dims": {
+          "width": 631,
+          "height": 400
+        }
+      }
+    }
+  },
+  "export": {
+
+  }
+}
