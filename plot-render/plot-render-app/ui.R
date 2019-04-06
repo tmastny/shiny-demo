@@ -1,7 +1,7 @@
 library(ggplot2)
 
 pageWithSidebar(
-  headerPanel("Rend Examples"),
+  headerPanel("Render Examples"),
   sidebarPanel(
     selectInput(
       "color",
